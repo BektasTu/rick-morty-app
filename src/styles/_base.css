@@ -7,6 +7,7 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  background-color: #666366;
   font-size: calc(15px + 0.390625vw);
 }
 
@@ -19,7 +20,8 @@ header {
   background-color: black;
   background-image: url("https://t4.ftcdn.net/jpg/03/11/72/63/360_F_311726370_WUopUflJYzZWTiIPdnP2yZ3xGaNABHZY.jpg");
   padding: 20px 10px;
-  box-shadow: inset 0 0 1rem white;
+  box-shadow: inset 0 0 1rem #807c80;
+  border-radius: 20px;
 }
 
 .header__search-input, .header__filter, .header__dataButton {
@@ -54,14 +56,15 @@ footer {
   color: #009bad;
   text-shadow: 0 0 2px #39ff14, 0 0 3px #ffff00;
   background-image: url("https://t4.ftcdn.net/jpg/03/11/72/63/360_F_311726370_WUopUflJYzZWTiIPdnP2yZ3xGaNABHZY.jpg");
-  box-shadow: inset 0 0 1rem white;
+  box-shadow: inset 0 0 1rem #807c80;
+  border-radius: 20px;
 }
 
 .main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: gray;
-  background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F01%2F17%2F24%2F17%2F360_F_117241720_kLdhi3Qi6WdLYwxGKQ1blUeLl69n4nHf.jpg&sp=1663975064T2262ea79a08b455fd64a46cd0d767914f6a80ddbad96e44a715660f1e066f14d");
+  box-shadow: inset 0 0 2rem black;
+  border-radius: 20px;
 }
 
 .card {

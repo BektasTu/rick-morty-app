@@ -12,9 +12,6 @@ html {
 }
 
 header {
-  display: flexbox;
-  flex-wrap: wrap;
-  align-items: center;
   font-size: 75px;
   font-family: 'Castle Dracustein';
   background-color: black;
